@@ -1,0 +1,15 @@
+Observations: As there were no or very high level requirements to validate the application, here are my observations from the exploratory testing ,
+ 
+1) Name fields accepts a long text (I could enter up to 72 characters for name fields, it accepts but can’t display it properly up on saving the record)
+2) Price field also accepts a big numeric value (I could enter up to 20 digit number, it accepts but again can’t display it properly up on saving the record)
+3) Records can be saved when name fields are empty or blank
+4) Records can be saved when price fields is empty or blank
+5) It accepts numeric values for name fields
+6) It accepts special characters for name fields
+7) It accepts zero value for price
+8) Records can be saved only having entry for deposit field, keeping all other fields blank
+9) It accepts long decimal digits for the price (I could enter up to twenty decimal digits)
+10) It accepts dates in the past for check in and check out
+11) It accepts if check out date is earlier than check in date
+12) I couldn’t understand the significance of having ‘Deposit’ field./dropdown, there should be another column/field to add the deposit amount
+
